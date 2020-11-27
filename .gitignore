@@ -1,0 +1,7 @@
+# Visual Studio Code setting files
+.vscode
+
+# Music files (You have to extract them yourself with extractor.py since I don't own the rights to publish them (Recommended version 1.16))
+minecraft
+
+venv

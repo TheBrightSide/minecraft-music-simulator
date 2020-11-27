@@ -1,0 +1,69 @@
+{
+    "overworld": {
+        "survivalOnly": false,
+        "inOrder": false,
+        "survival": [
+            "game/calm1.ogg",
+            "game/calm2.ogg",
+            "game/calm3.ogg",
+            "game/hal1.ogg",
+            "game/hal2.ogg",
+            "game/hal3.ogg",
+            "game/hal4.ogg",
+            "game/nuance1.ogg",
+            "game/nuance2.ogg",
+            "game/piano1.ogg",
+            "game/piano2.ogg",
+            "game/piano3.ogg"
+        ],
+        "creative": [
+            "game/creative/creative1.ogg",
+            "game/creative/creative2.ogg",
+            "game/creative/creative3.ogg",
+            "game/creative/creative4.ogg",
+            "game/creative/creative5.ogg",
+            "game/creative/creative6.ogg"
+        ]
+    },
+    "underwater": {
+        "survivalOnly": true,
+        "inOrder": false,
+        "survival": [
+            "game/water/axolotl.ogg",
+            "game/water/dragon_fish.ogg",
+            "game/water/shuniji.ogg"
+        ]
+    },
+    "nether": {
+        "survivalOnly": true,
+        "inOrder": false,
+        "survival": [
+            "game/nether/nether1.ogg",
+            "game/nether/nether2.ogg",
+            "game/nether/nether3.ogg",
+            "game/nether/nether4.ogg",
+            "game/nether/rubedo.ogg",
+            "game/nether/chrysopoeia.ogg",
+            "game/nether/so_below.ogg"
+        ]
+    },
+    "end": {
+        "survivalOnly": true,
+        "inOrder": true,
+        "survival": [
+            "game/end/boss.ogg",
+            "game/end/end.ogg",
+            "game/end/credits.ogg"
+        ]
+    },
+    "menu": {
+        "survivalOnly": true,
+        "inOrder": false,
+        "survival": [
+            "menu/menu1.ogg",
+            "menu/menu2.ogg",
+            "menu/menu3.ogg",
+            "menu/menu4.ogg"
+        ]
+    }
+}

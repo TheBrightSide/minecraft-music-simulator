@@ -1,0 +1,2 @@
+PyOgg==0.6.14a1
+simpleaudio==1.0.4
