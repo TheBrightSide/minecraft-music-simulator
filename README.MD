@@ -8,10 +8,12 @@ Feel free to look around my spaghetti code and comment.
 
 Feel free to contact me on Discord if you have any questions. My Discord is alex_#0537.
 
-## Installation
+## Installation & Setup
 
 ```sh
 git clone https://github.com/TheBrightSide/minecraft-music-simulator.git
+cd minecraft-music-simulator
+pip install -r requirements.txt
 ```
 
 ## Usage
