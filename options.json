@@ -1,6 +1,6 @@
 {
     "saveProgress": true,
-    "playingTimeInterval": [600, 1200],
+    "playingTimeInterval": [1, 30],
     "menuTimeInterval": [1, 30],
     "musicRootDir": "./minecraft/sounds/music/",
     "categoryOrder": ["menu", "overworld", "underwater", "overworld", "nether", "overworld", "end"]
