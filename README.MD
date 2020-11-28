@@ -15,15 +15,10 @@ git clone https://github.com/TheBrightSide/minecraft-music-simulator.git
 cd minecraft-music-simulator
 pip install -r requirements.txt
 ```
-
-## Setup
-
-- First you need to run
-  ```sh
-  pip install -r requirements.txt
-  ```
-- Then you need to run `extractor.py` to extract the music files from your Minecraft installation (the version I recommend you to extract from is 1.16)
-- Now you can run `main.py`
+```sh
+py extractor.py # Recommended version 1.16
+py main.py
+```
 
 ## Usage
 
