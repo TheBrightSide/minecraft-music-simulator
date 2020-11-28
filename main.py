@@ -13,7 +13,11 @@ from funcs import *
 from constants import *
 from random import randint, shuffle
 
-logging.basicConfig(level=logging.DEBUG)
+if sys.argv[0] == '': debugLevel = 'INFO' 
+elif not sys.argv[0] in LOGGING_LEVELS: debugLevel = 'INFO'
+else: debugLevel = LOGGING_LEVELS[sys.argv[0]]
+
+logging.basicConfig(level=LOGGING_LEVELS[debugLevel])
 log = logging.getLogger('main-thread')
 
 log.debug(f'Current Directory: {os.getcwd()}')
@@ -88,6 +92,7 @@ def main():
             except Exception as e:
                 log.error(f'File doesn\'t exist, proceeding...')
                 log.error(e)
+                log.warning('Did you run extractor.py?')
                 continue
             
             play_obj = simpleaudio.play_buffer(audioData.buffer, audioData.channels, 2, audioData.frequency)
