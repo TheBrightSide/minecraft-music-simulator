@@ -6,7 +6,7 @@ This is a little Python program that can extract music from your Minecraft insta
 
 Feel free to look around my spaghetti code and comment.
 
-Feel free to contact me on Discord if you have any questions. My Discord is alex_#0537.
+Feel free to contact me on Discord if you have any questions. My Discord is alex_#2171.
 
 ## Installation & Setup
 
